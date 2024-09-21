@@ -1,0 +1,18 @@
+@charset "UTF-8"; 
+/*vira comentario tudo oq estiver entre esses simbolos,apenas para o programador ver, nessa parte se coloca sobre o projeto,pra nao confundir */
+body{
+   font-family: Arial, Helvetica, sans-serif;font-size: 20px;
+    background-color: lightgray;
+    
+    
+}
+h1{color: darkblue;background-color: rgb(45, 4, 71);
+
+}
+h2{
+    color: rebeccapurple;
+
+}
+p{
+    text-align: justify;
+}

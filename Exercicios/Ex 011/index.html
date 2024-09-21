@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <H1>Imagem dinamica</H1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminui o tamanho do seu navegador</p>   
+ 
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <h2>bora repropduzir um audio braboHTML5</h2>
+   <audio preload="metadata" autoplay controls loop>
+    <source src="Midia/mafmafland.mp3" type="audio/mpeg">
+    <source src="Midia/mafmafland.mp3" type="audio/ogg">
+    <source src="Midia/mafmafland.mp3" type="audio/wav">
+    <p>infelizmente seu navegador nao consegue reproduzir o audio</p>
+    <p>clique <strong><a href="Midia/mafmafland.mp3">aqui</a></strong> para fazer download do arquivo mp3</p>
+
+
+   </audio>
+</body>
+</html>

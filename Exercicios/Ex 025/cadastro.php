@@ -1,0 +1,1 @@
+Os cadastros foram enviados aprender php para saber oq fzr com eles
